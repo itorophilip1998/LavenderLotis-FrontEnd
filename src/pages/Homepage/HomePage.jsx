@@ -133,7 +133,7 @@ function HomePage() {
                   display: "flex",
                 }}
               >
-                <img src={require("../../images/waldorf.png")} />
+                <img src={require("../../images/waldorf.png")} alt="" />
               </div>
               <div
                 style={{
