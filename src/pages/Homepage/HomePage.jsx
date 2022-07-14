@@ -1,5 +1,6 @@
 import { Container, Typography, useMediaQuery, Grid } from "@mui/material";
 import React from "react";
+import ProgramCard from "../../components/card/ProgramCard";
 
 function HomePage() {
   const tablet = useMediaQuery("(max-width:600px)");
@@ -74,20 +75,50 @@ function HomePage() {
               }}
               className={"scrollbar"}
             >
-              <div style={{ marginRight: 20 }}>
-                <img src={require("../../images/logo.png")} alt="slide-1" />
+              <div style={{ marginRight: 30 }}>
+                <img
+                  src={require("../../images/partner-one.png")}
+                  alt="slide-1"
+                />
+              </div>
+              <div style={{ marginRight: 30 }}>
+                <img
+                  src={require("../../images/partner-two.png")}
+                  alt="slide-1"
+                />
               </div>
               <div style={{ marginRight: 20 }}>
-                <img src={require("../../images/logo.png")} alt="slide-1" />
+                <img
+                  src={require("../../images/partner-three.png")}
+                  alt="slide-1"
+                />
               </div>
-              <div style={{ marginRight: 20 }}>
-                <img src={require("../../images/logo.png")} alt="slide-1" />
+              <div style={{ marginRight: 30 }}>
+                <img
+                  src={require("../../images/partner-four.png")}
+                  alt="slide-1"
+                />
               </div>
-              <div style={{ marginRight: 20 }}>
-                <img src={require("../../images/logo.png")} alt="slide-1" />
+              <div style={{ marginRight: 30 }}>
+                <img
+                  src={require("../../images/partner-five.png")}
+                  alt="slide-1"
+                />
               </div>
-              <div style={{ marginRight: 20 }}>
-                <img src={require("../../images/logo.png")} alt="slide-1" />
+              <div style={{ marginRight: 30 }}>
+                <img
+                  src={require("../../images/partner-six.png")}
+                  alt="slide-1"
+                />
+              </div>
+              <div style={{ marginRight: 30 }}>
+                <img
+                  src={require("../../images/partner-seven.png")}
+                  alt="slide-1"
+                />
+              </div>
+              <div style={{ marginRight: 30 }}>
+                <img src={require("../../images/waldorf.png")} alt="slide-1" />
               </div>
             </div>
             <img
@@ -172,6 +203,58 @@ function HomePage() {
                   />
                 </div>
               </div>
+            </Grid>
+          </Grid>
+        </Container>
+      </div>
+      <div
+        style={{ width: "100%", backgroundColor: "#F5F5F5", padding: "30px 0" }}
+      >
+        <Container>
+          <Typography
+            variant="h4"
+            color="#444444"
+            textAlign={"center"}
+            marginBottom={5}
+          >
+            The right program for your organization
+          </Typography>
+          <Grid container spacing={6} alignItems="center">
+            <Grid item md={6} sm={6} xs={12}>
+              <ProgramCard
+                image={require("../../images/image-one.png")}
+                title="Lavender Lotis for Employers"
+                description={
+                  "Our Mental Health as a benefit program will provide your employees with the tools to better cope with their persona challenges and maintain a healthy work/life balance while helping you batter the hidden productivity killer in you workplace."
+                }
+              />
+            </Grid>
+            <Grid item md={6} sm={6} xs={12}>
+              <ProgramCard
+                image={require("../../images/image-two.png")}
+                title="Lavender Lotis for Universities"
+                description={
+                  "your Campus-based resources on the more acute cases while giving them an ‘easy-to-use’, ‘in-the-palm-of-your-hand’ direct and connection to a liscenced healthcare practitioner. Anytime. Anywhere."
+                }
+              />
+            </Grid>
+            <Grid item md={6} sm={6} xs={12}>
+              <ProgramCard
+                image={require("../../images/image-four.png")}
+                title="Lavender Lotis for non-profits"
+                description={
+                  "Sometimes, the problem with being strong is that no one stops to ask you how you are doing. Provide Lavender Lotis to your mission-drivenand dedicated memebrs, and show them how that their wellbeing isjust as important."
+                }
+              />
+            </Grid>
+            <Grid item md={6} sm={6} xs={12}>
+              <ProgramCard
+                image={require("../../images/image-three.png")}
+                title="Lavender Lotis for Cities and Communities"
+                description={
+                  "Whether it’s wildfires up North or a tornado that runs through Main Street USA; from providing thousands of hot meals across town to a cruise line stranded off the shores of Tokyo - you take care of your own first and we’re right there with you."
+                }
+              />
             </Grid>
           </Grid>
         </Container>
