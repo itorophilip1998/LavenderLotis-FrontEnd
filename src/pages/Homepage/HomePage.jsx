@@ -1,6 +1,7 @@
 import { Container, Typography, useMediaQuery, Grid } from "@mui/material";
 import React from "react";
 import ProgramCard from "../../components/card/ProgramCard";
+import DoneIcon from "@mui/icons-material/Done";
 
 function HomePage() {
   const tablet = useMediaQuery("(max-width:600px)");
@@ -255,6 +256,301 @@ function HomePage() {
                   "Whether it’s wildfires up North or a tornado that runs through Main Street USA; from providing thousands of hot meals across town to a cruise line stranded off the shores of Tokyo - you take care of your own first and we’re right there with you."
                 }
               />
+            </Grid>
+          </Grid>
+        </Container>
+      </div>
+      <div style={{ width: "100%", padding: "30px 0" }}>
+        <Container>
+          <Typography
+            variant="h4"
+            textAlign="center"
+            color="#444444"
+            marginBottom={5}
+            fontSize={30}
+          >
+            Millions of members and hundreds of oranizations already enjoy
+            Lavender Lotis.
+            <br />
+            Here are some of the reasons why:
+          </Typography>
+
+          <Grid container spacing={5}>
+            <Grid item md={4} sm={12} xs={12}>
+              <div
+                style={{
+                  padding: "15px 0",
+                  borderBottom: "1px solid #DDDDDD",
+                  marginBottom: 15,
+                }}
+              >
+                <Typography color="#444444" variant="h6" textAlign="center">
+                  Why members love us
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Most comprehensive mental health support for organizations{" "}
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Smart matching with a licensed therapist per their preferences
+                  and needs
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Get the support they need, when they need it - wherever they
+                  are
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Easy access to the benefit leading to higher engagement levels
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Unlimited messaging with their therapist
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Digital tools like a journal, goal tracking, and interactive
+                  worksheets
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Feeling supported in their place of work and that they matter
+                  too
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Maintain a work-life balance and create enjoyable moments at
+                  home
+                </Typography>
+              </div>
+            </Grid>
+            <Grid item md={4} sm={12} xs={12}>
+              <img
+                src={require("../../images/video-app.png")}
+                alt=""
+                width="100%"
+                height={tablet ? "400px" : "600px"}
+                style={{ objectFit: "contain" }}
+              />
+            </Grid>
+            <Grid item md={4} sm={12} xs={12}>
+              <div
+                style={{
+                  padding: "15px 0",
+                  borderBottom: "1px solid #DDDDDD",
+                  marginBottom: 15,
+                }}
+              >
+                <Typography color="#444444" variant="h6" textAlign="center">
+                  Why providers love us
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Most comprehensive holistic health support for your members
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  No integration required and/or setup fees
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Roll out within a week's time
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Simple dashboard to manage membership
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Co-branded landing page to onboard your members
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Designated success manager and support team
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Monthly utilization reporting free of any PII
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Choose the right coverage for your organization (annual vs.
+                  shorter term)
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  2 simple pricing plans (flat rate to cover all or
+                  pay-per-usage)
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  marginBottom: 10,
+                }}
+              >
+                <DoneIcon style={{ color: "#71A84F" }} />
+                <Typography color="#4A4A4A" marginLeft={2}>
+                  Happier, healthier, and more productive employees
+                </Typography>
+              </div>
             </Grid>
           </Grid>
         </Container>
