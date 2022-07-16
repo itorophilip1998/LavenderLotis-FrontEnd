@@ -555,6 +555,174 @@ function HomePage() {
           </Grid>
         </Container>
       </div>
+      <div style={{ width: "100%", padding: "30px 0" }}>
+        <Container>
+          <Typography variant="h4" marginBottom={5} textAlign="center">
+            How it Works
+          </Typography>
+          <Grid container spacing={5}>
+            <Grid item md={4} sm={6} xs={12}>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src={require("../../images/communicate.png")} alt="" />
+              </div>
+              <Typography
+                variant="h6"
+                color="#444"
+                textAlign="center"
+                marginY={2}
+              >
+                4 modalities to communicate
+              </Typography>
+              <Typography variant="body1" textAlign="center" paddingX={2}>
+                Choose the right way for you, every time! BetterHelp's
+                all-in-one platform offers unlimited messaging with your
+                therapist and a choice between chat, phone and video for your
+                weekly live sessions.
+              </Typography>
+            </Grid>
+            <Grid item md={4} sm={6} xs={12}>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src={require("../../images/manage.png")} alt="" />
+              </div>
+              <Typography
+                variant="h6"
+                color="#444"
+                textAlign="center"
+                marginY={2}
+              >
+                Dynamic member management
+              </Typography>
+              <Typography variant="body1" textAlign="center" paddingX={2}>
+                As an organization, you need a program that would keep up with
+                your way of doing things. With BetterHelp this is easy, you can
+                add/remove members as needed, have full control over plan
+                selections as well a completely visibility into utilization
+                rates - just to name a few benefits!
+              </Typography>
+            </Grid>
+            <Grid item md={4} sm={6} xs={12}>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src={require("../../images/quick.png")} alt="" />
+              </div>
+              <Typography
+                variant="h6"
+                color="#444"
+                textAlign="center"
+                marginY={2}
+              >
+                Quick Implementation
+              </Typography>
+              <Typography variant="body1" textAlign="center" paddingX={2}>
+                We like to keep things business-friendly and simple; therefore,
+                implementing our services requires zero integration! We can have
+                your organization up and running within a week.
+              </Typography>
+            </Grid>
+            <Grid item md={4} sm={6} xs={12}>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src={require("../../images/group.png")} alt="" />
+              </div>
+              <Typography
+                variant="h6"
+                color="#444"
+                textAlign="center"
+                marginY={2}
+              >
+                Groupinars
+              </Typography>
+              <Typography variant="body1" textAlign="center" paddingX={2}>
+                Join one or more of our 30+ weekly, topic-based, interactive
+                group session webinars. Facilitated by a health providers who is
+                an expert in that topic/field, our groupinars are completely
+                anonymous, accessible to all of our members, and kept up-to-date
+                with current events.
+              </Typography>
+            </Grid>
+            <Grid item md={4} sm={6} xs={12}>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src={require("../../images/report.png")} alt="" />
+              </div>
+              <Typography
+                variant="h6"
+                color="#444"
+                textAlign="center"
+                marginY={2}
+              >
+                Rebost Reporting
+              </Typography>
+              <Typography variant="body1" textAlign="center" paddingX={2}>
+                Respecting the confidentiality of your members doesn't mean that
+                you need to be kept in the dark over what they are doing on
+                BetterHelp. Monitor utilization rates, assess mutual stressors,
+                review satisfaction surveys/scores, and track outcomes and
+                effectiveness all with 24/7/365 access to aggregated level
+                (non-PII) reports.
+              </Typography>
+            </Grid>
+            <Grid item md={4} sm={6} xs={12}>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img src={require("../../images/network.png")} alt="" />
+              </div>
+              <Typography
+                variant="h6"
+                color="#444"
+                textAlign="center"
+                marginY={2}
+              >
+                Largest and most diverse provider network
+              </Typography>
+              <Typography variant="body1" textAlign="center" paddingX={2}>
+                With 19,000+ NCQA based credentialed licensed therapists, our
+                diverse and clinically versatile provider network allows us to
+                match your members based on their preferences and needs, making
+                sure they get the support they need and deserve.
+              </Typography>
+            </Grid>
+          </Grid>
+        </Container>
+      </div>
     </>
   );
 }
